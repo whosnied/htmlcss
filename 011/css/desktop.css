@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width:800px) {
+    main.product-content{
+        flex-direction: row;
+    }
+    .section-product{
+        width: 700px;
+        height: 500px;
+    }
+    .div-product-img{
+        height: 100%;
+        float: left;
+        background: url(../images/image-product-desktop.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+    }
+    .div-product{
+        gap: 40px;
+    }
+}
